@@ -1,0 +1,4 @@
+
+
+select campaignid, description, outbounddnis, hld, hldfile from SysConfiguration.dbo.campaign
+where campaigntypeid = 9
